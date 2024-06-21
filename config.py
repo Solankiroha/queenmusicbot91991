@@ -35,7 +35,7 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/KRISHtg/queenmusicbot",
+    "https://github.com/Solankiroha/queenmusicbot91991",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv(
@@ -98,12 +98,13 @@ clean = {}
 autoclean = []
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://te.legra.ph/file/6d585197af34afd4bb740.jpg"
+    "START_IMG_URL", "https://telegra.ph/file/cfbdee8103102bcb2e5da.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://te.legra.ph/file/f6b2e18ecae7ffb6a9c88.jpg"
+    "PING_IMG_URL", "https://telegra.ph/file/cfbdee8103102bcb2e5da.jpg"
 )
-PLAYLIST_IMG_URL = "https://te.legra.ph/file/6d585197af34afd4bb740.jpg"
+PLAYLIST_IMG_URL = "https://telegra.ph/file/cfbdee8103102bcb2e5da.jpg"
+
 STATS_IMG_URL = "https://telegra.ph/file/7adee139f0639c400e1b8.jpg"
 TELEGRAM_AUDIO_URL = "https://te.legra.ph/file/9e14789c344a3c983aca5.jpg"
 TELEGRAM_VIDEO_URL = "https://te.legra.ph/file/9e14789c344a3c983aca5.jpg"
